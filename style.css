@@ -1,0 +1,58 @@
+h1{
+    color:white;
+    margin-left: 20px;
+}
+.header{
+    background-color: turquoise;
+    display:flex;
+    justify-content:space-between
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    color:green;
+    font-style: oblique;
+}
+*{
+    border-color: tomato;
+}
+body{
+    background-color: #808080; 
+}
+.menu{
+    margin: 20px;
+    margin-top: 30px;
+    
+}
+.menu a{
+    padding-right: 20px;
+}
+a:link{
+    color: purple;
+}
+.item{
+    position: relative;
+    border:solid;
+}
+.item p{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.3;
+}
